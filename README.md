@@ -3,31 +3,49 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
+<div align="center">
+	<a href='https://github.com/renatomayoral/portfolio-resume/blob/main/LICENSE'>
+    <img src="https://img.shields.io/github/license/renatomayoral/portfolio-resume" alt="License Badge" />
+    </a>
+  </div>
 <h1 align="center">
   Gatsby Portfolio - Renato Mayoral
 </h1>
 
 ## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
+1.  **Environment Setup.**
+      Tools Required:
+      
+      - [Node.js (v12.13 or newer)](https://nodejs.org/en/)
+      - [Git](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+      - [Gatsby command line interface (CLI) (v3 or newer)](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)<br>
+      The Gatsby command line interface (CLI) is a tool that lets you quickly create new Gatsby-powered sites and run commands for developing Gatsby sites.
+      The CLI is a published npm package, which means you can install it using npm.
+      Install the Gatsby CLI globally by running the command below. (Have an older version of the Gatsby CLI installed? This command will also update you to the latest version.)
+        ```shell
+        npm install -g gatsby-cli
+        ```
+      - [Visual Studio Code](https://code.visualstudio.com/) or any IDE
+    
+3.  **Clone my Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
     ```shell
     # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    git clone https://github.com/renatomayoral/portfolio-resume.git
     ```
 
-2.  **Start developing.**
+3.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
+    cd portfolio-resume/
     npm run develop
     ```
 
-3.  **Open the code and start customizing!**
+4.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
 
@@ -56,10 +74,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── src
     ├── .gitignore
     ├── .prettierrc
-    ├── gatsby-browser.js
     ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
@@ -73,24 +88,14 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+5.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+6.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+7. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+8. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+9. **`README.md`**: A text file containing useful reference information about your project.
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
