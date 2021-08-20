@@ -4,4 +4,5 @@ module.exports = {
     title: "my-gatsby",
   },
   plugins: ["gatsby-plugin-gatsby-cloud"],
+  plugins: [`gatsby-plugin-postcss`],
 };
