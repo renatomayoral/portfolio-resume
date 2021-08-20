@@ -42,6 +42,7 @@
 
     ```shell
     cd portfolio-resume/
+    npm i
     npm run develop
     ```
 
